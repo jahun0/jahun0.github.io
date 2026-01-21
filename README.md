@@ -1,7 +1,7 @@
 # Jahun Oh - Academic Website
 
 This repository contains a lightweight, static academic website for the GitHub Pages user site:
-https://jahunoh.github.io
+https://jahunO.github.io
 
 ## Deploy (GitHub Pages User Site)
 1. Create or rename the repository to `jahunoh.github.io`.
@@ -10,7 +10,7 @@ https://jahunoh.github.io
 4. Set **Source** to **Deploy from a branch**.
 5. Select **Branch: main** and **Folder: /(root)**.
 
-GitHub will publish the site at: https://jahunoh.github.io
+GitHub will publish the site at: https://jahunO.github.io
 
 ## Replace content
 - Profile photo: replace `assets/img/profile.jpg`.
