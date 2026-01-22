@@ -273,6 +273,12 @@ p {
   background: #fbfaf7;
 }
 
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 11 / 6;
+  object-fit: cover;
+}
+
 .gallery-grid figcaption {
   padding: 0.6rem 0.8rem 0.8rem;
   font-size: 0.85rem;

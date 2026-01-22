@@ -58,10 +58,14 @@
     }
 
     const iframe = document.createElement('iframe');
-    iframe.src = `https://www.youtube.com/embed/${videoId}?rel=0`;
-    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?si=ZD6pEJG3J6-kYEB4`;
+    iframe.width = '560';
+    iframe.height = '315';
+    iframe.title = 'YouTube video player';
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
     iframe.setAttribute('allowfullscreen', '');
-    iframe.title = 'YouTube video';
 
     tile.innerHTML = '';
     tile.appendChild(iframe);
